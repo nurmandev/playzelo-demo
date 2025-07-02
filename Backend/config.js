@@ -4,7 +4,7 @@ module.exports = {
         expireIn: '1h',
         secret: 'PLAYZELOSECRET'
     },
-    DB: 'mongodb://127.0.0.1:27017/PlayZelo',
+    DB: 'mongodb+srv://resume:1234@cluster0.8114dlp.mongodb.net/playzelo?retryWrites=true&w=majority',
     MANAGEMENT_OPTION: {
         port: 4000
     },
